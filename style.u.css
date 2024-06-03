@@ -1,3 +1,7 @@
+	*{
+		word-break: keep-all;
+	}
+
 	body {
 		background-image: url("4.jpeg");
 		background-repeat: no-repeat;
@@ -83,6 +87,32 @@
 
 	@media screen and (max-aspect-ratio: 2/3) {
 		body {
-			background-size: auto 100vh;
+			background-size: auto 1000vh;
 		}
 	}
+		header{
+		text-align: center;
+	}
+
+	article {
+		word-break: keep-all;
+		
+	}	
+
+	section {
+		
+		line-height: 3;
+		word-break: keep-all;
+		padding: 10px;
+		
+	}
+
+	h2 {
+		text-align: center;
+
+	}
+
+	p{
+		line-height: 2;
+	}
+}

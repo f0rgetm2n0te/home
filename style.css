@@ -51,7 +51,7 @@
 
 	@media screen and (max-aspect-ratio: 2/3) {
 		body {
-			background-size: auto 100vh;
+			background-size: auto 1000vh;
 		}
 		article
 	}
