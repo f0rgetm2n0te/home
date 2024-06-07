@@ -1,57 +1,76 @@
+	 body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: darkgray;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            margin-bottom: 20px;
+            justify-content: center;
+            display: flex;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .website {
+            background-color: #fff;
+            margin-top: 100px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+        }
+        .website h2 {
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+            text-align: center;
+            
+            justify-content: center;
+            display: flex;
+        }
+        .website p {
+            color: #666;
+            padding: 20px;
+            margin: 0;
+            text-align: center;
+            
+            justify-content: center;
+            display: flex;
+        }
+        .website a {
+            display: block;
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 0;
+            text-align: center;
+            
+            justify-content: center;
+            display: flex;
+        }
+        .website a:hover {
+            background-color: #555;
+        }
 	 *{
 		margin: 0;
 		padding: 0;
 		box-sizing: border-box;
 	}
-	body {
-		background-image: url("7.jpeg");
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		background-position: center;
-		background-size: 1900px auto;
-	}
 
-	
-	article {
-		
-		font-size: 4;
-		display: flex;
-		justify-content: center;
-		position: absolute;
-		top: 20%;
-		left: 5%;
-		
-	}
-
-	
-	section {
-		width: calc(100vw / 2);
-		height: 100vh;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		text-decoration: ;
-	}	
-	
-	.s1{
-		padding: 10px 20px;
-		font-size: 26px;
-		cursor: pointer;
-	    transition: all 1s ease; /* Smooth transition */
-	    background: cyan;
-	}
-
-	.s1:hover {
-	    width: 100px;
-	    height: 100px;
-	    border-radius:50%;
-	    padding:0;
-	    background: lightgreen;
-	    }
-
-	@media screen and (max-aspect-ratio: 2/3) {
-		body {
-			background-size: auto 1000vh;
-		}
-		article
-	}
+	footer {
+    background-color: #333;
+    color: #fff;
+    padding: 19px 0;
+    margin-top: 260px;
+    text-align: center;
+}

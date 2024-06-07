@@ -4,12 +4,14 @@
 		flex-direction: column;
 		align-items: center;
 		word-break: keep-all;
+		margin: 0;
+		padding: 0;
 
 	}
 
 
 	body {
-		background-image: url("5.jpeg");
+		background-color: lightgray;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: center;
@@ -19,6 +21,11 @@
 	header{
 		font-size: 20px;
 		text-align: center;
+		background-color: black;
+		color: white;
+		margin: 0;
+		padding: 0;
+		width: 100vw;
 	}
 
 	article {
@@ -99,6 +106,13 @@
 		position:relative;
 		top:1px;
 	}
+		footer {
+    background-color: #333;
+    color: #fff;
+    padding: 19px 0;
+    text-align: center;
+}
+
 
 
 	@media screen and (max-aspect-ratio: 2/3) {

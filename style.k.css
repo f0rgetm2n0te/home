@@ -1,0 +1,163 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+
+navigation {
+    display: flex;
+    justify-content: center; /* 가로 방향으로 중앙 정렬 */
+    align-items: center; /* 세로 방향으로 중앙 정렬 */
+    width: 60%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-size: 100px;
+}
+
+nav ul li {
+   position: relative; 
+    top: 50%; 
+    transform: translateY(-50%);
+    margin: 0 10px;
+    color: gray;
+    text-size: 100px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: lightgray;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    line-height: 200px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: transform 0.3s ease;
+    font-size: 30px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 27px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+  
+    
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+ 	transform: translateY(-50%);
+    justify-content: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+    width: 15vw;
+    height: 15vw;
+    line-height:20vw;
+    border-radius: 50%;
+    background-color: ;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+
+
+}
+
+.navigation ul {
+   
+}
+
+.navigation ul li {
+    margin: 0 10px; 
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #333;
+        list-style: none;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100%; 
+}
+.navigation ul {
+    list-style: none;
+    padding: 40px;
+    margin: 40px;
+}
+
+.navigation ul li a {
+    display: inline-block; 
+    margin-right: 20px; 
+}
+
+.navigation ul li a:last-child {
+    margin-right: 0; 
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #333; 
+}
+
+
+nav ul li a:hover {
+    transform: scale(1.1);
+}
+
+section {
+    background: #fff;
+    padding: 65px;
+    margin: 65px;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 19px 0;
+    text-align: center;
+}
+
