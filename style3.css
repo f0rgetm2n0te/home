@@ -1,4 +1,5 @@
 
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -39,6 +40,24 @@ p{
    font-size: 18px;
     line-height: 1.5;
     word-break: keep-all; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.p63{
+     font-size: 18px;
+    line-height: 1.5;
+    word-break: keep-all;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+
 }
 
 .topic {
@@ -67,6 +86,10 @@ p{
     font-size: 30px;
     line-height: 1.5;
     word-break: keep-all;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .topic-image img {
@@ -98,4 +121,39 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px 0;
+}
+
+@media screen and (max-width:900px){
+    header{
+        
+        font-size: 5vw;
+        text-align: center;
+    }
+
+    article {
+        
+        font-size: 4vw;
+    }   
+
+
+
+    section {
+        
+        line-height: 3;
+        word-break: keep-all;
+        font-size: 3.8vw;
+        
+        padding: 10px;
+      
+    }
+
+    h2 {
+        text-align: center;
+        
+        border-radius: 100px;
+    }
+
+    p{
+        line-height: 2;
+    }
 }

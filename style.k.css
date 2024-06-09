@@ -160,4 +160,38 @@ footer {
     padding: 19px 0;
     text-align: center;
 }
+@media screen and (max-width:900px){
+    header{
+        
+        font-size: 5vw;
+        text-align: center;
+    }
+
+    article {
+        
+        font-size: 4vw;
+    }   
+
+
+
+    section {
+        
+        line-height: 3;
+        word-break: keep-all;
+        font-size: 3.8vw;
+        
+        padding: 10px;
+      
+    }
+
+    h2 {
+        text-align: center;
+        
+        border-radius: 100px;
+    }
+
+    p{
+        line-height: 2;
+    }
+}
 
