@@ -4,14 +4,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: mintcream;
 }
 
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 40px 0;
+    background-color: m;
+    color: ;
+    padding: 45px 0;
     text-align: center;
 }
 
@@ -63,8 +63,8 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: lightskyblue;
+    color: white;
     padding: 27px 0;
     text-align: center;
 }
@@ -93,7 +93,7 @@ nav ul li a {
     line-height:20vw;
     border-radius: 50%;
     background-color: ;
-    background-color: gray;
+    background-color: lightpink;
     justify-content: center;
     align-items: center;
     transition: transform 0.3s ease;
@@ -137,7 +137,7 @@ nav ul li a {
 
 .navigation ul li a {
     text-decoration: none;
-    color: #333; 
+    color: white; 
 }
 
 
@@ -147,17 +147,17 @@ nav ul li a:hover {
 
 section {
     background: #fff;
-    padding: 65px;
-    margin: 65px;
+    padding: 50px;
+    margin: 50px;
     border-radius: 0px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 
 footer {
-    background-color: #333;
+    background-color: lightskyblue;
     color: #fff;
-    padding: 19px 0;
+    padding: 48px 0;
     text-align: center;
 }
 @media screen and (max-width:900px){

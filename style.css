@@ -2,10 +2,10 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: darkgray;
+            background-color: ;
         }
         header {
-            background-color: #333;
+            background-color: lightblue;
             color: #fff;
             padding: 20px 0;
             text-align: center;
@@ -18,17 +18,21 @@
             margin: 0 auto;
             padding: 0 20px;
         }
+        div{
+            background-color: ;
+        }
         .website {
-            background-color: #fff;
+            background-color: lightblue;
             margin-top: 100px;
             margin-bottom: 20px;
             border-radius: 10px;
             overflow: hidden;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-size: 40px;
 
         }
         .website h2 {
-            color: #333;
+            color: lightblue;
             margin: 0;
             padding: 20px;
             background-color: #f0f0f0;
@@ -38,7 +42,7 @@
             display: flex;
         }
         .website p {
-            color: #666;
+            color: lightblue;
             padding: 20px;
             margin: 0;
             text-align: center;
@@ -49,7 +53,7 @@
         .website a {
             display: block;
             text-align: center;
-            background-color: #333;
+            background-color: lightblue;
             color: #fff;
             text-decoration: none;
             padding: 10px 0;
@@ -59,7 +63,7 @@
             display: flex;
         }
         .website a:hover {
-            background-color: #555;
+            background-color: skyblue;
         }
 	 *{
 		margin: 0;
@@ -67,10 +71,4 @@
 		box-sizing: border-box;
 	}
 
-	footer {
-    background-color: #333;
-    color: #fff;
-    padding: 19px 0;
-    margin-top: 260px;
-    text-align: center;
-}
+	

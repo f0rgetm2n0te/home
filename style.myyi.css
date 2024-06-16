@@ -1,9 +1,9 @@
-/* styles.css */
+
 body {
     font-family: Arial, sans-serif;
     margin: 60px;
     padding: 60px;
-    background-color: black;
+    background-color: lightpink;
 }
 
 .container {
@@ -18,7 +18,7 @@ body {
 }
 
 .image-card {
-    background-color: lightgray; 
+    background-color: beige; 
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;

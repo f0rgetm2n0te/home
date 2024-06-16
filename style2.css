@@ -1,111 +1,64 @@
- 
-         body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: gray;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px 0;
-            text-align: center;
-            margin-bottom: 20px;
-            justify-content: center;
-            display: flex;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-        .website {
-            background-color: #fff;
-            margin-top: 200px;
-            margin-bottom: 20px;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
-        }
-        .website h2 {
-            color: #333;
-            margin: 0;
-            padding: 20px;
-            background-color: #f0f0f0;
-            text-align: center;
-            
-            justify-content: center;
-            display: flex;
-        }
-        .website p {
-            color: #666;
-            padding: 20px;
-            margin: 0;
-            text-align: center;
-            
-            justify-content: center;
-            display: flex;
-        }
-        .website a {
-            display: block;
-            text-align: center;
-            background-color: #333;
-            color: #fff;
-            text-decoration: none;
-            padding: 10px 0;
-            text-align: center;
-            
-            justify-content: center;
-            display: flex;
-        }
-        .website a:hover {
-            background-color: #555;
-        }
-     *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    footer {
-    background-color: #333;
-    color: #fff;
-    padding: 19px 0;
-    margin-top:295px;
-    text-align: center;
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    background-color: beige;
 }
-@media screen and (max-width:900px){
-    header{
-        
-        font-size: 5vw;
-        text-align: center;
-    }
 
-    article {
-        
-        font-size: 4vw;
-    }   
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
 
+.nav {
+    background-color: lightpink;
+    color: black;
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+}
 
+.nav h2 {
+    text-align: center;
+    border-bottom: 1px solid #444;
+    padding-bottom: 10px;
+}
 
-    section {
-        
-        line-height: 3;
-        word-break: keep-all;
-        font-size: 3.8vw;
-        
-        padding: 10px;
-      
-    }
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+}
 
-    h2 {
-        text-align: center;
-        
-        border-radius: 100px;
-    }
+.nav ul li {
+    margin: 20px 0;
+}
 
-    p{
-        line-height: 2;
-    }
+.nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    width: 75%;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.content section {
+    margin-bottom: 40px;
+}
+
+.content section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
 }

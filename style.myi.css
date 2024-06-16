@@ -4,7 +4,7 @@
 		box-sizing: border-box;
 	}
 	body {
-		background-color: lightgray;
+		background-color: beige;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: center;
@@ -12,7 +12,7 @@
 
 	}
 	header{
-		background-color: black;
+		background-color: lightpink;
 		color: white;
 		font-size: 20px;
 		text-align: center;

@@ -11,7 +11,7 @@
 
 
 	body {
-		background-color: lightgray;
+		background-color: lightblue;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: center;
@@ -21,8 +21,8 @@
 	header{
 		font-size: 20px;
 		text-align: center;
-		background-color: black;
-		color: white;
+		background-color: lightskyblue;
+		color: black;
 		margin: 0;
 		padding: 0;
 		width: 100vw;
